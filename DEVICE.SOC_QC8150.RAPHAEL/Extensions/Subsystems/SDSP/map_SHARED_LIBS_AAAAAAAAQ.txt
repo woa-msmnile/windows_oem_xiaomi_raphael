@@ -1,13 +1,5 @@
 ../../touch/build/shared_libs/qdsp6/AAAAAAAA/libFastRPC_UTF_Forward_801s_sdm855_skel.so
 
-../../performance/sysmonapp/build/shared_libs/qdsp6/AAAAAAAA/libsysmon_skel.so
-
-../../performance/sysmonapp/build/shared_libs/qdsp6/AAAAAAAA/libsysmondomain_skel.so
-
-../../performance/sysmonapp/build/shared_libs/qdsp6/AAAAAAAA/libstabilitydomain_skel.so
-
-../../performance/sysmonapp/build/shared_libs/qdsp6/AAAAAAAA/libsysmonquery_skel.so
-
 ../../chre/chre/build/shared_libs/qdsp6/AAAAAAAA/libchre_slpi_skel.so
 
 ../../chre/chre_app_oem/build/shared_libs/qdsp6/AAAAAAAA/chre_app_oem.so

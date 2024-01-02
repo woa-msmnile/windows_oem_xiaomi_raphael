@@ -12,14 +12,14 @@ These driver files are not perfect, typos may exist, feel free to file an issue 
 | Bluetooth              |                                                     | ✅            |
 | Wifi                   |                                                     | ✅            |
 | UFS                    |                                                     | ✅            |
-| Touch                  |                                                     | ❌            |
+| Touch                  |                                                     | ✅            |
 | GPU                    | May not work on some devices with unofficial panel. | ✅            |
 | Battery                |                                                     | ✅            |
 | Buttons                |                                                     | ✅            |
 | Light Sensor           |                                                     | ❌            |
 | Thermal Sensor         |                                                     | ❌            |
 | Haptic                 |                                                     | ❌            |
-| Cellular Data          |                                                     | ❌            |
+| Cellular Data          | Need to dump modem at every boot                    | ⚠️            |
 | Charge                 |                                                     | ❌            |
 
 ## Resources

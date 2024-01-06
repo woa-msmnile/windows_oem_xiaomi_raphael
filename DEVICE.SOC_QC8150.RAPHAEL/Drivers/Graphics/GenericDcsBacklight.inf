@@ -15,8 +15,7 @@ PnpLockdown = 1
 %ManufacturerName% = Surface, NTARM64
 
 [Surface.NTARM64]
-%DeviceName% = GenericDcsBacklight, ACPI\MSHW1004
-%DeviceName% = GenericDcsBacklight, ACPI\MSHW1345
+%DeviceName% = GenericDcsBacklight, ACPI\OPRM0200
 
 [SourceDisksNames]
 1 = %DiskName%,,,""
@@ -45,10 +44,10 @@ ServiceBinary  = %13%\GenericDcsBacklight.sys
 LoadOrderGroup = Extended Base
 
 [Strings]
-ManufacturerName = "Surface"
-DiskName         = "Surface OEM Panel Installation Disk"
-DeviceName       = "Surface OEM Panel Device"
-SvcDesc          = "Surface OEM Panel Device"
+ManufacturerName = "Raphael"
+DiskName         = "Raphael OEM Panel Installation Disk"
+DeviceName       = "Raphael OEM Panel Device"
+SvcDesc          = "Raphael OEM Panel Device"
 
 SPSVCINST_ASSOCSERVICE = 0x00000002
 SERVICE_KERNEL_DRIVER  = 1

@@ -17,7 +17,7 @@ These driver files are not perfect, typos may exist, feel free to file an issue 
 | UFS                    |                                                     | ✅            |
 | Touch                  |                                                     | ✅            |
 | GPU                    | May not work on some devices with unofficial panel. | ✅            |
-| Battery                |                                                     | ✅            |
+| Battery                | The battery driver is not installed by default      | ✅            |
 | Buttons                |                                                     | ✅            |
 | Location               |                                                     | ✅            |
 | Cellular Data          | Need to dump modem at every boot.                   | ⚠️            |

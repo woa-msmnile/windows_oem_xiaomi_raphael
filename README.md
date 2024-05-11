@@ -17,14 +17,14 @@ These driver files are not perfect, typos may exist, feel free to file an issue 
 | UFS                    |                                                     | ✅            |
 | Touch                  |                                                     | ✅            |
 | GPU                    | May not work on some devices with unofficial panel. | ✅            |
-| Battery                | The battery driver is not installed by default      | ✅            |
+| Battery                | The battery driver is not installed by default      | ⚠️            |
 | Buttons                |                                                     | ✅            |
 | Location               |                                                     | ✅            |
 | Cellular Data          | Need to dump modem at every boot.                   | ⚠️            |
 | Charge                 | Slow charging only.                                 | ⚠️            |
 | 🛡️ TPM                | Only supports Windows 11 22H2 and above.            | ⚠️            |
-| 🧭 Light Sensor       |                                                     | ❌            |
-| 🧭 Thermal Sensor     |                                                     | ❌            |
+| 🧭 Light Sensor       | Need to copy calibration data                       | ✅            |
+| 🧭 Thermal Sensor     | Same with above                                     | ✅            |
 | Haptic                 |                                                     | ❌            |
 
 ## Resources
@@ -36,6 +36,7 @@ These driver files are not perfect, typos may exist, feel free to file an issue 
 Please see [LICENSE](LICENSE.md)
 
 ## Installing manually
+Check out guide: [InstallDriver](https://woa-msmnile.github.io/InstallationGuides/InstallDrivers.html)
 
 For preserving charset encoding, please checkout with using:
 

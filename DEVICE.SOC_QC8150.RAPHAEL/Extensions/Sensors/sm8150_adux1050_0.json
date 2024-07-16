@@ -1,12 +1,12 @@
 {
   "config":{
-    "hw_platform": ["MTP", "Dragon", "Surf", "CEPHEUS"],
+    "hw_platform": ["MTP", "Dragon", "Surf", "RAPHAEL"],
     "soc_id": ["291", "246", "305", "321", "339"]
   },
   "adux1050_0_platform":{
-    "owner": "sns_adux1050_0",
+    "owner": "sns_adux1050",
     ".config":{
-      "owner": "sns_adux1050_0",
+      "owner": "sns_adux1050",
       "bus_type":{ "type": "int", "ver": "0",
         "data": "0"
       },
@@ -57,7 +57,7 @@
       }
     },
     ".placement":{
-      "owner": "sns_adux1050_0",
+      "owner": "sns_adux1050",
       "0":{ "type": "flt", "ver": "0",
         "data": "0.0"
       },

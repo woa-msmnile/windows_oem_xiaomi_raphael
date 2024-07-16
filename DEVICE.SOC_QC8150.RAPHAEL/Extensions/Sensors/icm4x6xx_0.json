@@ -1,15 +1,15 @@
 {
   "config":
   {
-    "hw_platform": ["MTP", "Dragon", "Surf", "CEPHEUS"],
+    "hw_platform": ["MTP", "Dragon", "Surf", "RAPHAEL"],
     "soc_id": ["291", "246", "305", "321", "339"]
   },
-  "lsm6ds3c_0":{
-    "owner": "lsm6ds3c",
+  "icm4x6xx_0":{
+    "owner": "icm4x6xx",
     ".accel":{
-      "owner": "lsm6ds3c",
+      "owner": "icm4x6xx",
       ".config":{
-        "owner": "lsm6ds3c",
+        "owner": "icm4x6xx",
         "is_dri":{ "type": "int", "ver": "0",
           "data": "1"
         },
@@ -17,7 +17,7 @@
           "data": "0"
         },
         "res_idx":{ "type": "int", "ver": "0",
-          "data": "2"
+          "data": "4"
         },
         "sync_stream":{ "type": "int", "ver": "0",
           "data": "0"
@@ -25,17 +25,17 @@
       }
     },
     ".gyro":{
-      "owner": "lsm6ds3c",
+      "owner": "icm4x6xx",
       ".config":{
-        "owner": "lsm6ds3c",
+        "owner": "icm4x6xx",
         "is_dri":{ "type": "int", "ver": "0",
           "data": "1"
         },
         "hw_id":{ "type": "int", "ver": "0",
           "data": "0"
         },
-        "res_idx":{ "type": "int", "ver": "1",
-          "data": "3"
+        "res_idx":{ "type": "int", "ver": "0",
+          "data": "7"
         },
         "sync_stream":{ "type": "int", "ver": "0",
           "data": "0"
@@ -43,9 +43,27 @@
       }
     },
     ".md":{
-      "owner": "lsm6ds3c",
+      "owner": "icm4x6xx",
       ".config":{
-        "owner": "lsm6ds3c",
+        "owner": "icm4x6xx",
+        "is_dri":{ "type": "int", "ver": "0",
+          "data": "1"
+        },
+        "hw_id":{ "type": "int", "ver": "0",
+          "data": "0"
+        },
+        "res_idx":{ "type": "int", "ver": "0",
+          "data": "0"
+        },
+        "sync_stream":{ "type": "int", "ver": "0",
+          "data": "0"
+        }
+      }
+    },
+    ".freefall":{
+      "owner": "icm4x6xx",
+      ".config":{
+        "owner": "icm4x6xx",
         "is_dri":{ "type": "int", "ver": "0",
           "data": "1"
         },
@@ -61,9 +79,9 @@
       }
     },
     ".temp":{
-      "owner": "lsm6ds3c",
+      "owner": "icm4x6xx",
       ".config":{
-        "owner": "lsm6ds3c",
+        "owner": "icm4x6xx",
         "is_dri":{ "type": "int", "ver": "0",
           "data": "0"
         },

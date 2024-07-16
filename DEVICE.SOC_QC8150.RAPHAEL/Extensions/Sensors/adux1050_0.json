@@ -1,14 +1,14 @@
 {
   "config":{
-    "hw_platform": ["MTP", "Dragon", "Surf", "POLARIS", "PERSEUS", "CEPHEUS"],
-    "soc_id": ["291", "246", "305", "321", "339"]
+    "hw_platform": ["QRD", "MTP", "Dragon", "Surf", "HDK", "RAPHAEL"],
+    "soc_id": ["291", "246", "305", "321", "336", "339", "341", "360"]
   },
   "adux1050_0":{
-    "owner": "sns_adux1050_0",
+    "owner": "sns_adux1050",
     ".proximity":{
-      "owner": "sns_adux1050_0",
+      "owner": "sns_adux1050",
       ".config":{
-        "owner": "sns_adux1050_0",
+        "owner": "sns_adux1050",
         "is_dri":{ "type": "int", "ver": "0",
           "data": "0"
         },
@@ -26,7 +26,7 @@
     ".custom":{
       "owner": "sns_adux1050",
       ".config":{
-        "owner": "sns_adux1050_0",
+        "owner": "sns_adux1050",
         "version":{ "type": "flt", "ver": "0",
           "data": "0x0000"
         },

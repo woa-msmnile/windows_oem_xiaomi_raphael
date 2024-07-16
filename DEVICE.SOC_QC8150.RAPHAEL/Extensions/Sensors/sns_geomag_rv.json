@@ -1,6 +1,6 @@
 {
   "config": {
-    "hw_platform": ["MTP", "Dragon", "Surf", "QRD", "HDK", "CEPHEUS"],
+    "hw_platform": ["MTP", "Dragon", "Surf", "QRD", "HDK", "RAPHAEL"],
     "soc_id": ["291", "246", "300", "301", "305", "321", "336", "339", "341", "360"]
   },
   "sns_geomag_rv": {

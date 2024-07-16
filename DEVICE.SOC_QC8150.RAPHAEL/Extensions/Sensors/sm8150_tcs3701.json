@@ -1,6 +1,6 @@
 {
   "config":{
-    "hw_platform": ["MTP", "Dragon", "Surf", "URSA", "EQUULEUS", "CEPHEUS"],
+    "hw_platform": ["MTP", "Dragon", "Surf", "URSA", "EQUULEUS", "RAPHAEL"],
     "soc_id": ["291", "246", "305", "321", "339"]
   },
   "tcs3701_platform":{
@@ -26,7 +26,7 @@
         "data": "0"
       },
       "dri_irq_num":{ "type": "int", "ver": "0",
-        "data": "120"
+        "data": "117"
       },
       "irq_pull_type":{ "type": "int", "ver": "0",
         "data": "2"
@@ -82,79 +82,88 @@
     },
     ".coefficient":{
       "owner": "sns_tcs3701",
-      "0":{ "type": "flt", "ver": "0",
-        "data": "3.257"
+      "0":{ "type": "flt", "ver": "10",
+        "data": "23.03"
       },
-      "1":{ "type": "flt", "ver": "0",
-        "data": "1.332"
+      "1":{ "type": "flt", "ver": "10",
+        "data": "0.3"
       },
-      "2":{ "type": "flt", "ver": "0",
-        "data": "-0.499"
+      "2":{ "type": "flt", "ver": "10",
+        "data": "-0.18"
       },
-      "3":{ "type": "flt", "ver": "0",
-        "data": "-0.319"
+      "3":{ "type": "flt", "ver": "10",
+        "data": "-0.12"
       },
-      "4":{ "type": "flt", "ver": "0",
-        "data": "-0.021"
+      "4":{ "type": "flt", "ver": "10",
+        "data": "-0.08"
       },
-      "5":{ "type": "flt", "ver": "0",
+      "5":{ "type": "flt", "ver": "10",
         "data": "0.0"
       },
-      "6":{ "type": "flt", "ver": "0",
+      "6":{ "type": "flt", "ver": "10",
         "data": "0.0"
       },
-      "7":{ "type": "flt", "ver": "0",
+      "7":{ "type": "flt", "ver": "10",
         "data": "0.0"
       },
-      "8":{ "type": "flt", "ver": "0",
+      "8":{ "type": "flt", "ver": "10",
         "data": "0.0"
       },
-      "9":{ "type": "flt", "ver": "0",
+      "9":{ "type": "flt", "ver": "10",
         "data": "0.0"
       },
-      "10":{ "type": "flt", "ver": "0",
+      "10":{ "type": "flt", "ver": "10",
         "data": "600.0"
       },
-      "11":{ "type": "flt", "ver": "0",
+      "11":{ "type": "flt", "ver": "10",
         "data": "0.0"
       }
     },
     ".oled_cal_factor":{
       "owner": "sns_tcs3701",
-      "clear_a":{ "type": "flt", "ver": "1",
-        "data": "-41.061676"
+      "clear_a":{ "type": "flt", "ver": "3",
+        "data": "-74.763955"
       },
-      "clear_b":{ "type": "flt", "ver": "1",
-        "data": "43.848996"
+      "clear_b":{ "type": "flt", "ver": "3",
+        "data": "43.993902"
       },
-      "clear_c":{ "type": "flt", "ver": "1",
-        "data": "20.752018"
+      "clear_c":{ "type": "flt", "ver": "3",
+        "data": "15.220314"
       },
-      "red_a":{ "type": "flt", "ver": "1",
-        "data": "-28.728368"
+      "red_a":{ "type": "flt", "ver": "3",
+        "data": "-31.588130"
       },
-      "red_b":{ "type": "flt", "ver": "1",
-        "data": "77.180949"
+      "red_b":{ "type": "flt", "ver": "3",
+        "data": "56.683092"
       },
-      "red_c":{ "type": "flt", "ver": "1",
-        "data": "-6.177013"
+      "red_c":{ "type": "flt", "ver": "3",
+        "data": "-0.389612"
       },
-      "green_a":{ "type": "flt", "ver": "1",
-        "data": "-33.648034"
+      "green_a":{ "type": "flt", "ver": "3",
+        "data": "-37.551814"
       },
-      "green_b":{ "type": "flt", "ver": "1",
-        "data": "58.350267"
+      "green_b":{ "type": "flt", "ver": "3",
+        "data": "43.689838"
       },
-      "green_c":{ "type": "flt", "ver": "1",
-        "data": "-3.672188"
+      "green_c":{ "type": "flt", "ver": "3",
+        "data": "2.132351"
       },
-      "blue_a":{ "type": "flt", "ver": "1",
-        "data": "-10.157023"
+      "blue_a":{ "type": "flt", "ver": "3",
+        "data": "-12.690549"
       },
-      "blue_b":{ "type": "flt", "ver": "1",
-        "data": "50.949692"
+      "blue_b":{ "type": "flt", "ver": "3",
+        "data": "44.665075"
       },
-      "blue_c":{ "type": "flt", "ver": "1",
+      "blue_c":{ "type": "flt", "ver": "3",
+        "data": "0.0"
+      }
+    },
+    ".prox_cal_offset":{
+      "owner": "sns_tcs3701",
+      "prox_offset_l":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "prox_offset_h":{ "type": "flt", "ver": "0",
         "data": "0.0"
       }
     }

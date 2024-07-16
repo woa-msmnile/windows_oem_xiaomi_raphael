@@ -1,7 +1,7 @@
 {
   "config":
   {
-    "hw_platform": ["MTP", "Dragon", "Surf", "URSA", "EQUULEUS", "CEPHEUS"],
+    "hw_platform": ["MTP", "Dragon", "Surf", "URSA", "EQUULEUS", "RAPHAEL"],
     "soc_id": ["291", "246", "305", "321", "339"]
   },
   "tcs3701":{

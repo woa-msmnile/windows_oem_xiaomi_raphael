@@ -1,7 +1,7 @@
 {
   "config":
   {
-    "hw_platform": ["MTP", "Dragon", "Surf", "QRD", "HDK", "CEPHEUS"],
+    "hw_platform": ["MTP", "Dragon", "Surf", "QRD", "HDK", "RAPHAEL"],
     "soc_id": ["339"]
   },
   "shtw2_0_platform":{

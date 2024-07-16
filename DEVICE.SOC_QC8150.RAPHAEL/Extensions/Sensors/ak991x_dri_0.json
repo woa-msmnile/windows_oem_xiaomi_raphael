@@ -1,6 +1,6 @@
 {
   "config":{
-    "hw_platform": ["QRD", "MTP", "Dragon", "Surf", "HDK", "CEPHEUS"],
+    "hw_platform": ["QRD", "MTP", "Dragon", "Surf", "HDK", "RAPHAEL"],
     "soc_id": ["291", "246", "305", "321", "336", "339", "341", "360"]
   },
   "ak0991x_0":{

@@ -1,12 +1,12 @@
 {
   "config":{
-    "hw_platform": ["MTP", "Surf", "QRD", "CEPHEUS"],
+    "hw_platform": ["MTP", "Surf", "QRD", "RAPHAEL"],
     "soc_id": ["321", "339"]
   },
-  "lsm6ds3c_0_platform":{
-    "owner": "lsm6ds3c",
+  "icm4x6xx_0_platform":{
+    "owner": "icm4x6xx",
     ".config":{
-      "owner": "lsm6ds3c",
+      "owner": "icm4x6xx",
       "bus_type":{ "type": "int", "ver": "0",
         "data": "1"
       },
@@ -19,17 +19,17 @@
       "min_bus_speed_khz":{ "type": "int", "ver": "0",
         "data": "0"
       },
-      "max_bus_speed_khz":{ "type": "int", "ver": "0",
+      "max_bus_speed_khz":{ "type": "int", "ver": "4",
         "data": "9600"
       },
       "reg_addr_type":{ "type": "int", "ver": "0",
         "data": "0"
       },
       "dri_irq_num":{ "type": "int", "ver": "0",
-        "data": "9"
+        "data": "132"
       },
-      "irq_pull_type":{ "type": "int", "ver": "0",
-        "data": "2"
+      "irq_pull_type":{ "type": "int", "ver": "15",
+        "data": "0"
       },
       "irq_is_chip_pin":{ "type": "int", "ver": "0",
         "data": "1"
@@ -37,14 +37,14 @@
       "irq_drive_strength":{ "type": "int", "ver": "0",
         "data": "0"
       },
-      "irq_trigger_type":{ "type": "int", "ver": "1",
+      "irq_trigger_type":{ "type": "int", "ver": "15",
         "data": "3"
       },
       "num_rail":{ "type": "int", "ver": "0",
         "data": "1"
       },
       "rail_on_state":{ "type": "int", "ver": "0",
-        "data": "1"
+        "data": "2"
       },
       "vddio_rail":{ "type": "str", "ver": "0",
         "data": "/pmic/client/sensor_vddio"
@@ -54,23 +54,23 @@
       }
     },
     ".orient":{
-      "owner": "lsm6ds3c",
-      "x":{ "type": "str", "ver": "0",
-        "data": "-x"
+      "owner": "icm4x6xx",
+      "x":{ "type": "str", "ver": "2",
+        "data": "+x"
       },
-      "y":{ "type": "str", "ver": "0",
-        "data": "-y"
+      "y":{ "type": "str", "ver": "2",
+        "data": "+y"
       },
-      "z":{ "type": "str", "ver": "0",
+      "z":{ "type": "str", "ver": "1",
         "data": "+z"
       }
     },
     ".gyro":{
-      "owner": "lsm6ds3c",
+      "owner": "icm4x6xx",
       ".fac_cal":{
-        "owner": "lsm6ds3c",
+        "owner": "icm4x6xx",
         ".corr_mat":{
-          "owner": "lsm6ds3c",
+          "owner": "icm4x6xx",
           "0_0":{ "type": "flt", "ver": "0",
             "data": "1.0"
           },
@@ -100,7 +100,7 @@
           }
         },
         ".bias":{
-          "owner": "lsm6ds3c",
+          "owner": "icm4x6xx",
           "x":{ "type": "flt", "ver": "0",
             "data": "0.0"
           },
@@ -114,11 +114,11 @@
       }
     },
     ".accel":{
-      "owner": "lsm6ds3c",
+      "owner": "icm4x6xx",
       ".fac_cal":{
-        "owner": "lsm6ds3c",
+        "owner": "icm4x6xx",
         ".corr_mat":{
-          "owner": "lsm6ds3c",
+          "owner": "icm4x6xx",
           "0_0":{ "type": "flt", "ver": "0",
             "data": "1.0"
           },
@@ -148,7 +148,7 @@
           }
         },
         ".bias":{
-          "owner": "lsm6ds3c",
+          "owner": "icm4x6xx",
           "x":{ "type": "flt", "ver": "0",
             "data": "0.0"
           },
@@ -162,18 +162,18 @@
       }
     },
     ".temp":{
-      "owner": "lsm6ds3c",
+      "owner": "icm4x6xx",
       ".fac_cal":
       {
-        "owner": "lsm6ds3c",
+        "owner": "icm4x6xx",
         ".scale":{
-          "owner": "lsm6ds3c",
+          "owner": "icm4x6xx",
           "x":{ "type": "flt", "ver": "0",
             "data": "1.0"
           }
         },
         ".bias":{
-          "owner": "lsm6ds3c",
+          "owner": "icm4x6xx",
           "x":{ "type": "flt", "ver": "0",
             "data": "0.0"
           }
@@ -181,10 +181,10 @@
       }
     },
     ".md":{
-      "owner": "lsm6ds3c",
+      "owner": "icm4x6xx",
       ".config":{
-        "owner": "lsm6ds3c",
-        "thresh":{ "type": "flt", "ver": "0",
+        "owner": "icm4x6xx",
+        "thresh":{ "type": "flt", "ver": "1",
             "data": "0.6132"
         },
         "disable":{ "type": "int", "ver": "0",
@@ -196,7 +196,7 @@
       }
     },
     ".placement":{
-      "owner": "lsm6ds3c",
+      "owner": "icm4x6xx",
       "0":{ "type": "flt", "ver": "0",
         "data": "0.0"
       },

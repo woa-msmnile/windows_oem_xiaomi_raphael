@@ -1,7 +1,7 @@
 {
   "config": {
     "hw_platform": [
-      "MTP", "Dragon", "Surf", "POLARIS", "URSA", "DIPPER", "PERSEUS", "CEPHEUS"
+      "MTP", "Dragon", "Surf", "POLARIS", "URSA", "DIPPER", "PERSEUS", "RAPHAEL"
     ],
     "soc_id": [
       "291", "246", "305", "321", "339"

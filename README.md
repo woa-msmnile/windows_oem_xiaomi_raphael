@@ -23,8 +23,9 @@ These driver files are not perfect, typos may exist, feel free to file an issue 
 | Cellular Data          | Need to dump modem at every boot.                   | ⚠️            |
 | Charge                 | Slow charging only.                                 | ⚠️            |
 | 🛡️ TPM                | Only supports Windows 11 22H2 and above.            | ⚠️            |
-| 🧭 Light Sensor       | Need to copy calibration data                       | ✅            |
-| 🧭 Thermal Sensor     | Same with above                                     | ✅            |
+| 🧭 Sensor             |                                                     | ✅            |
+| 🧭 Light Sensor       | Need to copy calibration data                       | ❌            |
+| 🧭 Thermal Sensor     | Same with above                                     | ⚠️            |
 | Haptic                 |                                                     | ❌            |
 
 ## Resources
